@@ -124,7 +124,7 @@ jobs:
         import-as-holding: true
         
     - name: 'upgrade-solution'
-      uses: microsoft/powerplatform-actions/upgrade-solution@0.5.0
+      uses: microsoft/powerplatform-actions/upgrade-solution@0.4.3
       with:
         environment-url: ${{ env.targetEnvironmentUrl }}
         user-name: ${{ env.targetEnvironmentUserId }}
